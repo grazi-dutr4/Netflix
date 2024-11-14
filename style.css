@@ -27,3 +27,26 @@ section{
     justify-content: space-around;
     align-items: center;
 }
+h3{
+    color: #f1f1f1;
+    padding-left: 40px;  
+    font-size:  28px; ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carrossel-de-filmes{
+    padding-left:  20px; ;
+    padding-right: 20px;
+    margin-top:  50px; ;
+}
+.filmes{
+    display: flex;
+    gap: 20px; ;
+    overflow-x: auto;
+}
+.filmes img{
+    width: 300px;
+}
+.filmes img:hover{
+    width: 300px;
+    border: 3px solid red;
+}
